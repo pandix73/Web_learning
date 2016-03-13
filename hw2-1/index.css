@@ -1,0 +1,181 @@
+body {
+	background-color: white;
+}
+
+.border1 {
+	margin-top: -1px;
+	margin-left: -5px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	width: 598px;
+	height:598px;
+}
+
+.border2 {
+	margin-top: 2px;
+	margin-left: 2px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	width: 592px;
+	height:592px;
+}
+
+.hw2 {
+	margin-left:216px;
+	margin-top:53px;
+	font-family: 微軟正黑體;
+	font-weight: normal;
+	color: black;
+}
+
+.different {
+	font-family: 標楷體;
+	font-size:32px;
+	font-weight: 500;
+	margin-top:32px;
+	margin-left:1px;
+	height:32px;
+}
+
+.word1 {
+	float:left;
+}
+
+.word2 {
+	float:left;
+	color: #800000;
+}
+
+.word3 {
+	float:left;
+	color: #00FF00;
+}
+
+.word4 {
+	float:left;
+	color: #FF0000;
+}
+
+.word5 {
+	float:left;
+	color: #008080;
+}
+
+.word6 {
+	float:left;	
+	color: rgb(250, 247, 48);
+}
+
+.word7 {
+	float:left;
+	color: #008080;
+}
+
+
+.option {
+	margin-top:72px;
+	margin-left:-224px;
+	height:21px;
+	border:1px solid black;
+}
+
+.covered {
+	z-index:100;
+	background-color:rgb(0, 76, 0);
+}
+
+.border3 {
+	border:5px solid black;
+	margin-top:14px;
+	margin-left:1px;
+	height:256px;
+	width:256px;
+}
+
+.hello-kitty {
+	margin-top:0px;
+	margin-left:0px;
+	z-index: 0;
+}
+
+.cover-blue {
+	position: absolute;
+	margin-top:-289px;
+	margin-left:194px;
+	height:72px;
+	width:184px;
+	background-color:rgb(0, 76, 255);
+	z-index:200;
+}
+
+.cover-yellow {
+	position: absolute;
+	margin-top:51px;
+	margin-left:4px;
+	height:19px;
+	width:176px;
+	background-color:rgb(255, 255, 0);
+	z-index:200;
+}
+
+.multi-word1 {
+	float:left;
+	font-family: 新細明體;
+	font-size:16px;
+	font-weight: 500;
+	margin-top: 1px;
+}
+
+.multi-word2 {
+	float:left;
+	font-family: 新細明體;
+	font-size:16px;
+	font-weight: 800;
+	margin-top: 1px;
+}
+
+.multi-word3 {
+	float:left;
+	font-family: 新細明體;
+	font-size:16px;
+	font-weight: 500;
+	margin-top: 1px;
+}
+
+.multi-word4 {
+	float:left;
+	font-family: 新細明體;
+	font-size:32px;
+	font-weight: 100;
+	margin-top: -14px;
+}
+
+.multi-word5 {
+	float:left;
+	font-family: 新細明體;
+	font-size:16px;
+	font-weight: 500;
+	width: 50px;
+	margin-top: -24px;
+	margin-left:144px;
+}
+
+.upload {
+	margin-top: 16px;
+	margin-left:1px;
+	
+	font-family: 細明體;
+	font-size:16px;
+	font-weight: lighter;
+}
+
+.browse-button {
+	
+	font-size:13px;
+	font-weight: 500;
+	letter-spacing: 0.15px;
+	width:219px;
+	color:black;
+}
