@@ -1,0 +1,94 @@
+body {
+	background-color: #FFDAB9;
+	font-family: 微軟正黑體;
+	font-weight: normal;
+}
+
+.main-area{
+	background-color: #FAEBD7;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:20px;
+	height:100%;
+	border-radius:10px; 
+}
+
+.title{
+	text-align:center;
+	height: 60px;
+	width: 250px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	font-size:50px;
+}
+
+.calculator{
+	background-color: black;
+	height: 700px;
+	width: 500px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+	
+	font-family: 微軟正黑體;
+	font-weight: normal;
+	font-size:30px;
+}
+
+.screen{
+	border-radius:10px;
+	position:absolute;
+	background-color: white;
+	height: 100px;
+	width: 450px;
+	margin-left:25px;
+	margin-top:30px;
+}
+
+.firstline,
+.secondline,
+.thirdline,
+.forthline{
+	margin-top:1%;
+	height: 120px;
+}
+
+.firstblock,
+.secondblock,
+.thirdblock,
+.forthblock{
+	background-color: #EEDD82;
+	margin-top:1%;
+	margin-left:4%;
+	width: 20%;
+	height: 94%;
+	float:left;
+	border-radius:10px;
+}
+
+.firstblock:hover,
+.secondblock:hover,
+.thirdblock:hover,
+.forthblock:hover{
+	background-color: orange;
+}
+
+.firstblock:active,
+.secondblock:active,
+.thirdblock:active,
+.forthblock:active{
+	background-color: white;
+}
+
+h1{
+	text-align:center;
+	margin-top:10%;
+}
+
+p{
+	text-align:right;
+	font-size:50px;
+	margin-top:3%;
+}
