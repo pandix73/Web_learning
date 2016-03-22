@@ -1,0 +1,114 @@
+body {
+	background-color: #FFDAB9;
+	font-family: 微軟正黑體;
+	font-weight: normal;
+}
+
+.main-area{
+	background-color: #FAEBD7;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:20px;
+	height:200%;
+	border-radius:10px; 
+}
+
+.title{
+	height: 60px;
+	width: 250px;
+	margin:auto;
+	padding-top:50px;
+	font-size:50px;
+}
+
+.page{
+	margin:auto;
+	padding-top:20px;
+	height:50px;
+	width:200px;
+}
+
+
+
+li{
+	display:inline;
+	width: 20%;
+}
+
+ul{
+	height: 400px;
+}
+
+.img-form{
+	background-color: white;
+	height: 80%;
+	width: 96%;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.firstline{
+	margin-top:1%;
+	height: 30%;
+}
+
+.secondline{
+	margin-top:1%;
+	height: 30%;
+}
+
+.thirdline{
+	margin-top:1%;
+	height: 30%;
+}
+
+.firstblock{
+	background-color: #EEDD82;
+	margin-top:1%;
+	margin-left:4%;
+	width: 28%;
+	height: 94%;
+	float:left;
+}
+
+.secondblock{
+	background-color: #EEDD82;
+	margin-top:1%;
+	margin-left:4%;
+	width: 28%;
+	height: 94%;
+	float:left;
+}
+
+.thirdblock{
+	background-color: #EEDD82;
+	margin-top:1%;
+	margin-left:4%;
+	width: 28%;
+	height: 94%;
+	float:left;
+}
+
+h1,h4{
+	text-align:center;
+}
+
+p{
+	width:70%;
+	margin-left:15%;
+}
+
+.command{
+	height:100px;
+	margin-top:30%;
+	margin-left:15%;
+}
+
+input{
+	margin-bottom:-100px;
+}
+
+.new-chat{
+	width:300px;
+	margin-left:30%;
+}

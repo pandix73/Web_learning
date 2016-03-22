@@ -2,7 +2,15 @@ var num = 0;
 var temp_num = 0;
 var instruction = 0;
 var isdot = 0;
-
+function check(){
+	if(num > 10000000000){
+		document.getElementById("number").innerHTML="overflow";
+		num = 0;
+		temp_num = 0;
+		instruction = 0;
+		isdot = 0;
+	}
+}
 function equal(){
 	if(instruction == 1){
 		num = temp_num + num;
@@ -24,6 +32,12 @@ function equal(){
 	instruction = 0;
 	num = parseFloat(Math.round(num*100000))/100000;
 	document.getElementById("number").innerHTML=num;
+	check();
+}
+
+function equal_end(){
+	equal();
+	num = 0;
 }
 
 function add(){
@@ -52,58 +66,102 @@ function div(){
 }
 
 function dot(){
-	isdot = 1;
-	document.getElementById("number").innerHTML=num+'.';
+	if(isdot == 0){
+		isdot = 1;
+		document.getElementById("number").innerHTML=num+'.';
+	}
 }
 
 function zero(){
-    num = num * 10;
-	
-	document.getElementById("number").innerHTML=num;
+    if(isdot > 0){
+		if(isdot == 1)document.getElementById("number").innerHTML=num + '.0';
+		else if(isdot < 6)document.getElementById("number").innerHTML=num.toFixed(isdot);
+		isdot = isdot + 1;
+	} else {
+		num = num * 10;
+		document.getElementById("number").innerHTML=num;
+		check();
+	}
 }
 function one() {
-    num = num * 10 + 1;
-	
+	if(isdot > 0){
+		num = num + 1 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 1;
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function two() {
-    num = num * 10 + 2;
-	
+    if(isdot > 0){
+		num = num + 2 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 2;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function three() {
-    num = num * 10 + 3;
-	
+    if(isdot > 0){
+		num = num + 3 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 3;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function four() {
-    num = num * 10 + 4;
-	
+    if(isdot > 0){
+		num = num + 4 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 4;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function five() {
-    num = num * 10 + 5;
-	
+    if(isdot > 0){
+		num = num + 5 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 5;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function six() {
-    num = num * 10 + 6;
-	
+    if(isdot > 0){
+		num = num + 6 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 6;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function seven() {
-    num = num * 10 + 7;
-	
+    if(isdot > 0){
+		num = num + 7 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 7;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function eight() {
-    num = num * 10 + 8;
-	
+    if(isdot > 0){
+		num = num + 8 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 8;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 function nine() {
-    num = num * 10 + 9;
-	
+    if(isdot > 0){
+		num = num + 9 * Math.pow(10, -1*isdot);
+		num = parseFloat(Math.round(num*100000))/100000;
+		isdot = isdot + 1;
+	} else num = num * 10 + 9;	
 	document.getElementById("number").innerHTML=num;
+	check();
 }
 
