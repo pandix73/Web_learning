@@ -1,0 +1,58 @@
+body {
+	background-color: #FFDAB9;
+	font-family: 微軟正黑體;
+	font-weight: normal;
+}
+
+.main-area{
+	background-color: #FAEBD7;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:20px;
+	height:100%;
+	border-radius:10px; 
+}
+
+#title{
+	text-align:center;
+	height: 60px;
+	width: 250px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	font-size:50px;
+}
+
+#canvas{
+	background-color: #CD9B1D;
+	height: 700px;
+	width: 700px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+	
+	font-family: 微軟正黑體;
+	font-weight: normal;
+	font-size:30px;
+}
+
+h1{
+	text-align:center;
+	margin-top:10%;
+}
+
+p{
+	color:black;
+	text-align:center;
+	font-size:20px;
+	margin-top:3%;
+}
+
+input{
+	width:100px;
+}
+
+text{
+	text-align:left;
+}
